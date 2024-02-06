@@ -1,5 +1,5 @@
 #Ejercicio 1
-def suma_diagonal_principal(mat):
+def ej1(mat):
     suma = 0
     for i in mat:
         if len(i) != len(mat):
@@ -10,7 +10,7 @@ def suma_diagonal_principal(mat):
 
 
 #Ejercicio 2
-def buscar_numero(mat, numero):
+def ej2(mat, numero):
     for fila in mat:
         for elemento in fila:
             if elemento == numero:
@@ -22,7 +22,7 @@ def buscar_numero(mat, numero):
 
 
 #Ejercicio 3
-def buscar_numero2(arreglo, numero):
+def ej3(arreglo, numero):
     for elemento in arreglo:
         if elemento == numero:
             return True
