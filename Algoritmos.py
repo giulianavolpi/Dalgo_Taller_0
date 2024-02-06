@@ -1,17 +1,17 @@
 #Ejercicio 1
-def suma_diagonal_principal(matriz):
+def suma_diagonal_principal(mat):
     suma = 0
-    for i in matriz:
-        if len(i) != len(matriz):
+    for i in mat:
+        if len(i) != len(mat):
             return print("La matriz no es cuadrada")
-    for i in range(len(matriz)):
-        suma += matriz[i][i]
+    for i in range(len(mat)):
+        suma += mat[i][i]
     return suma
 
 
 #Ejercicio 2
-def buscar_numero(matriz, numero):
-    for fila in matriz:
+def buscar_numero(mat, numero):
+    for fila in mat:
         for elemento in fila:
             if elemento == numero:
                 return True
